@@ -1,0 +1,26 @@
+div.just-moon{
+  top: 24.9vh;
+  left: 59.1vw;
+  width: 7.1vw;
+  height: 10.8vh;
+  border-radius: 100%;
+  background-image: url(./bg.jpg);
+  position: absolute;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  transition: 1s;
+  opacity: 0.5;
+}
+div.just-moon:active{
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  opacity: 1;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
